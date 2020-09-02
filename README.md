@@ -10,7 +10,7 @@
 
 ```
 <? 
-require 'vendor/autoload';
+require 'vendor/autoload.php';
 use ExampleHttpClient\ExampleClient;
 use ExampleHttpClient\ExampleComment;
 $client = new ExampleClient();
