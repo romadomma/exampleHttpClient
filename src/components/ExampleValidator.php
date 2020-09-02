@@ -2,8 +2,17 @@
 
 namespace ExampleHttpClient;
 
+/**
+ * Trait ExampleValidator
+ * @package ExampleHttpClient
+ */
 trait ExampleValidator
 {
+    /**
+     * @param array $required
+     * @return bool
+     * @throws ExampleException
+     */
     public function required($required = []) : bool
     {
         foreach ($required as $field){

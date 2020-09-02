@@ -1,20 +1,25 @@
 {
-    "name": "romadomma/example-http-client",
-    "description": "test task for Drom.ru",
-    "type": "library",
-    "license": "MIT",
-    "authors": [{
-        "name": "Roman Kadykov",
-        "email": "roma-domma@yandex.ru"
-    }],
-    "require-dev": {
-        "phpunit/phpunit": "^9.3"
-    },
-    "require": {
-        "php": "^7.4",
-        "guzzlehttp/guzzle": "^7.0"
-    },
-    "autoload": {
-        "classmap": ["src/"]
+  "name": "romadomma/example-http-client",
+  "description": "test task for Drom.ru",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Kadykov",
+      "email": "roma-domma@yandex.ru"
     }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.3"
+  },
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
 }
