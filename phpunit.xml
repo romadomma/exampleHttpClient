@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        bootstrap="vendor/autoload.php"
+        beStrictAboutTestsThatDoNotTestAnything="false"
+>
+    <testsuites>
+        <testsuite name="ExampleComment">
+            <file>./tests/ExampleCommentTest.php</file>
+        </testsuite>
+        <testsuite name="ExampleClient">
+            <file>./tests/ExampleClientTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
